@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  Smriti</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script type="text/javascript" src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<div><center>
+<h1>FUN FILTERS</h1>
+<h2>Have fun filtering your images !</h2>
+  </center></div>
+<center><canvas id="canvas1"></canvas></center>
+<br>
+
+<center>
+<input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+
+</center>
+
+<br>
+<center>
+<button title="apply grey filter" id="grey" onclick="greyscale()">GREYSCALE</button>
+
+<button title="apply red filter" id="red" onclick="red()">RED</button>
+
+<button title="apply green filter" id="green" onclick="green()">GREEN</button>
+
+<button title="apply blue filter" id="blue" onclick="blue()">BLUE</button>
+
+<button title="apply grainy filter" id="grainy" onclick="grainy()">GRAINY</button>
+
+<button title="apply rainbow filter" id="rainbow" onclick="rainbow()">RAINBOW</button>
+
+<button title="apply invert filter" id="invert" onclick="invert()">INVERT</button>
+
+<button title="apply flip filter" id="vertical" onclick="vertical()">FLIP</button>
+
+<button title="apply a white border" id="border" onclick="border()">BORDER</button> 
+
+</center>
+<br>
+<center>
+
+<button title="reset your image" id="reset" onclick="resetimage()">RESET</button>
+
+<button title="clear canvas" id="clear" onclick="clearimage()">CLEAR</button>
+
+</center>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
